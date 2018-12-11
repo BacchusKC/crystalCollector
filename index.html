@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF=8">
+    <title>Rupee Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Play|Righteous|Teko" rel="stylesheet">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="headerText">
+            <p><strong>Rupee Collector</strong></p>
+            </div>
+        </div>
+        <div class="container main">
+            <div class="row score">
+                <div class="col-sm-12 scoreBox">
+                    <p>Wins : <span id="userWins"></span>&nbsp Losses : <span id="userLosses"></span></p>
+                    <p>Target : <span id="targetScore"></span>&nbsp Current : <span id="currentScore"></span></p>
+                </div>
+            </div>
+            <div>
+                <img src="assets/images/blue.png" class="rupees" id="blue">
+                <img src="assets/images/green.png" class="rupees" id="green">
+                <img src="assets/images/purple.png" class="rupees" id="purple">
+                <img src="assets/images/red.png" class="rupees" id="red">
+            </div>
+            <div>
+                <button type="button" id="start">New Game</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container copyright">
+            <p>&#169; Travis Morris 2018</p>
+        </div>
+    </div>
+    
+<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    /* background-image: url("images/wallpaper.jpg");
+    background-repeat: repeat; */
+    height: 100%;
+    padding: 0;
+    top: 0;
+    background-color: antiquewhite;
+}
+.header {
+    /* background-image: url(../images/header.jpg); */
+    /* background-repeat: repeat-x; */
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    border-color: lightskyblue;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    position: relative;
+}
+.headerText {
+    text-align: center;
+    font-size: 5vh;
+    color: burlywood;
+    font-family: 'Righteous', cursive;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    line-height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 25px;
+}
+.main {
+    height: 700px;
+    background-color: burlywood;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.page {
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.score {
+    background-color: antiquewhite;
+    max-width: 500px;
+    width: 100%;
+    height: 125px;
+    font-family: 'Teko', sans-serif;
+    font-size: 4vh;
+    color: green;
+    text-align: left;
+    margin: 20px auto;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    line-height: 4vh;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px brown;
+}
+.scoreBox {
+    margin: 20px;
+}
+.rupees {
+    margin: 5px;
+}
+.rupees:hover {
+    cursor: pointer;
+    /* border: 3px solid green; */
+    opacity: .6;
+}
+#start {
+    margin-top: 10px;
+    color: burlywood;
+    background-color: green;
+    border-radius: 8px;
+}
+#start:hover {
+    cursor: pointer;
+    border: 2px solid green;
+    background-color: burlywood;
+    color: green;
+}
+#result {
+    color: green;
+    font-family: 'Teko', sans-serif;
+    font-size: 4vh;
+}
+.footer {
+    position: static;
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    border-top: 5px solid lightskyblue;
+    bottom: 0;
+    margin-top: 20px;
+}
+.copyright {
+    color: burlywood;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media screen and (max-width: 991px){
+}  
+
+
+@media screen and (max-width: 480px){
+.rupees {
+    width: 20%;
+}
+}    
